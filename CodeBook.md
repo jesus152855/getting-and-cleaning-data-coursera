@@ -14,7 +14,7 @@ This code book summarizes the resulting data fields in 'tidy.txt'.
 8. Calculating the average of the measurements
 9. Export the tidyData set 
 
-Please refer to [run_analysis.R] (https://github.com/jesus152855/getting-and-cleaning-data-coursera/master/run_analysis.R) for implementation details.
+Please refer to [run_analysis.R] (https://github.com/jesus152855/getting-and-cleaning-data-coursera/run_analysis.R) for implementation details.
 
 ## Identifiers
 
