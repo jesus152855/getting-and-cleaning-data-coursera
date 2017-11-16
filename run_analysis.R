@@ -56,7 +56,7 @@ xTrainSet <- cbind(subjectTrain, ActivitiesTrain, xTrainSet)
 
 ## 5. Merge datasets and add correct labels
 allData <- rbind(xTrainSet, xTestSet)
-colnames(allData) <- c("subject", "activity", featuresWanted.names)
+colnames(allData) <- c("subject", "activity", featuresDesired.names)
 
 # Turn activities and subjects into factors
 allData$activity <- factor(allData$activity, levels = activityLabels[,1], labels = activityLabels[,2])
